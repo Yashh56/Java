@@ -155,17 +155,94 @@ public class App {
         }
     }
 
+    static void Pattern13(int n) {
+        int num = 1;
+        for (int i = 1; i <= n; i++) {
+            for (int j = 1; j <= i; j++) {
+                System.out.print(num + " ");
+                num = num + 1;
+            }
+            System.out.println(" ");
+        }
+    }
+
+    static void Pattern14(int n) {
+        for (int i = 0; i < n; i++) {
+            for (char ch = 'A'; ch <= 'A' + i; ch++) {
+                System.out.print(ch + " ");
+            }
+            System.out.println(" ");
+        }
+    }
+
+    static void Pattern15(int n) {
+        for (int i = 0; i < n; i++) {
+            for (char ch = 'A'; ch <= 'A' + (n - i - 1); ch++) {
+                System.out.print(ch + " ");
+            }
+            System.out.println(" ");
+        }
+    }
+
+    static void Pattern16(int n) {
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j <= i; j++) {
+                System.out.print((char) (int) ('A' + i) + " ");
+            }
+            System.out.println(" ");
+        }
+    }
+
+    static void Pattern17(int n) {
+        for (int i = 0; i < n; i++) {
+            // Space
+            for (int j = 0; j < n - i - 1; j++) {
+                System.out.print(" ");
+            }
+            // Letter
+            char ch = 'A';
+            int breakpoint = (2 * i + 1) / 2;
+            for (int j = 1; j <= 2 * i + 1; j++) {
+                System.out.print(ch);
+                if (j <= breakpoint)
+                    ch++;
+                else
+                    ch--;
+            }
+            // Space
+            for (int j = 0; j < n - i - 1; j++) {
+                System.out.print(" ");
+            }
+            System.out.println(" ");
+        }
+    }
+
+    static void Pattern18(int n){
+        for(int i=0;i<=n;i++){
+            for(char ch=(char)(int)('A'+n-1-i);ch<=(char)(int)('A'+n-1);ch++){
+                System.out.print(ch+" ");
+            }
+            System.out.println(" ");
+        }
+    }
     public static void main(String[] args) {
 
-        // Pattern1(5);
-        // Pattern2(5);
-        // Pattern3(5);
-        // Pattern4(5);
-        // Pattern5(5);
-        // Pattern6(6);
-        // Pattern7(6);
-        // Pattern10(5);
-        // Pattern11(5);
-        // Pattern12(5);
+        int n = 5;
+        // Pattern1(n);
+        // Pattern2(n);
+        // Pattern3(n);
+        // Pattern4(n);
+        // Pattern5(n);
+        // Pattern6(n);
+        // Pattern7(n);
+        // Pattern10(n);
+        // Pattern11(n);
+        // Pattern12(n);
+        // Pattern13(n);
+        // Pattern14(n);
+        // Pattern15(n);
+        // Pattern16(n);
+        // Pattern17(n);
+        Pattern18(n);
     }
 }
