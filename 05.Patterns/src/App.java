@@ -217,13 +217,56 @@ public class App {
         }
     }
 
-    static void Pattern18(int n){
-        for(int i=0;i<=n;i++){
-            for(char ch=(char)(int)('A'+n-1-i);ch<=(char)(int)('A'+n-1);ch++){
-                System.out.print(ch+" ");
+    static void Pattern18(int n) {
+        for (int i = 0; i <= n; i++) {
+            for (char ch = (char) (int) ('A' + n - 1 - i); ch <= (char) (int) ('A' + n - 1); ch++) {
+                System.out.print(ch + " ");
             }
             System.out.println(" ");
         }
+    }
+
+    static void Pattern19(int n) {
+        int iniS = 0;
+        for (int i = 0; i < n; i++) {
+            // stars
+            for (int j = 1; j <= n - i; j++) {
+                System.out.print("*");
+            }
+            // spaces
+            for (int j = 0; j < iniS; j++) {
+                System.out.print(" ");
+            }
+            // stars
+            for (int j = 1; j <= n - i; j++) {
+                System.out.print("*");
+            }
+            iniS += 2;
+            System.out.println(" ");
+
+        }
+        iniS = 8;
+        for (int i = 1; i <= n; i++) {
+            // stars
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
+            // spaces
+            for (int j = 0; j < iniS; j++) {
+                System.out.print(" ");
+            }
+            // stars
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
+            iniS -= 2;
+            System.out.println(" ");
+
+        }
+    }
+
+    static void Pattern20(int n){
+        
     }
     public static void main(String[] args) {
 
@@ -243,6 +286,7 @@ public class App {
         // Pattern15(n);
         // Pattern16(n);
         // Pattern17(n);
-        Pattern18(n);
+        // Pattern18(n);
+        Pattern19(n);
     }
 }
