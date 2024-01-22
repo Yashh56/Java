@@ -1,18 +1,7 @@
-## Getting Started
+Recursion is a process that involves a function calling itself directly or indirectly to solve a problem. The function that performs the recursion process is called a recursive function. 
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+Recursion is a powerful tool in writing algorithms. It involves breaking a problem down into smaller and smaller sub-problems until it can be solved trivially. This is done by the program calling itself to repeat the same steps. 
 
-## Folder Structure
+Recursion can be used to solve certain problems easily. For example, recursion can be used to generate the set of all natural numbers. 
 
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Recursion comes directly from Mathematics, where there are many examples of expressions written in terms of themselves. For example, the Fibonacci sequence is defined as: F(i) = F(i-1) + F(i-2). 
