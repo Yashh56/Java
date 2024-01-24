@@ -90,6 +90,14 @@ public class ProblemsOnRecursion {
         if(n==1 || n==2 ) return 1;
         return Fibb(n-1)+Fibb(n-2);
     }
+    
+    static boolean Pali(int i, String s){
+        if( i>=s.length()/2) return true;
+        if(s.charAt(i) != s.charAt(s.length()-i-1)) return false;
+
+        return Pali(i+1,s);
+    }
+    
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         int n = input.nextInt();
@@ -103,7 +111,9 @@ public class ProblemsOnRecursion {
         // System.out.println(Sum2(n));
         // System.out.println(Factorial(n));
         // reversedArray(n,arr);
-        System.out.println(Fibb(n));
+        // System.out.println(Fibb(n));
+        String s = "madam";
+        System.out.println(Pali(0,s));
         input.close();
     }
 }
