@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Problem1",
+            "request": "launch",
+            "mainClass": "Problem1",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
             "name": "Palindrome",
             "request": "launch",
             "mainClass": "Palindrome",

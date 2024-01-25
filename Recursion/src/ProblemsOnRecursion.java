@@ -111,7 +111,7 @@ public class ProblemsOnRecursion {
         // System.out.println(Sum2(n));
         // System.out.println(Factorial(n));
         // reversedArray(n,arr);
-        // System.out.println(Fibb(n));
+        System.out.println(Fibb(n));
         String s = "madam";
         System.out.println(Pali(0,s));
         input.close();
