@@ -27,5 +27,6 @@ public class Problem1 {
 
             System.out.println(hash[number]);
         }
+        sc.close();
     }
 }

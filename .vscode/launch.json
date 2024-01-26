@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Problem3",
+            "request": "launch",
+            "mainClass": "Problem3",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "Problem2",
+            "request": "launch",
+            "mainClass": "Problem2",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
             "name": "Problem1",
             "request": "launch",
             "mainClass": "Problem1",
