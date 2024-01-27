@@ -6,6 +6,34 @@
     "configurations": [
         {
             "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "Insertion.App",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "Bubble.App",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "Problem1",
+            "request": "launch",
+            "mainClass": "Sorting.Problem1",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "Sorting.App",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
             "name": "Problem3",
             "request": "launch",
             "mainClass": "Problem3",
