@@ -8,6 +8,20 @@
             "type": "java",
             "name": "App",
             "request": "launch",
+            "mainClass": "QuickSort.App",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "Merge.App",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
             "mainClass": "Insertion.App",
             "projectName": "Java_72da403b"
         },

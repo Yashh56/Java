@@ -1,4 +1,4 @@
-package Insertion;
+package InsertionSort;
 
 public class App {
 

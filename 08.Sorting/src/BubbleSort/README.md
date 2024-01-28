@@ -1,4 +1,5 @@
-``
+
+```bash
 public static void bubbleSort(int arr[], int n)
     {
         for(int i = n-1; i>=0;i--){
@@ -18,4 +19,6 @@ public static void bubbleSort(int arr[], int n)
             }
         }
     } 
-``
+
+```
+
