@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "RotateAnArray",
+            "request": "launch",
+            "mainClass": "EasyProblems.RotateAnArray",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "LeftRotate",
+            "request": "launch",
+            "mainClass": "EasyProblems.LeftRotate",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "RemoveDuplicate",
+            "request": "launch",
+            "mainClass": "EasyProblems.RemoveDuplicate",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "AarraySort",
+            "request": "launch",
+            "mainClass": "EasyProblems.AarraySort",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "SecondLargestNum",
+            "request": "launch",
+            "mainClass": "EasyProblems.SecondLargestNum",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "App",
+            "request": "launch",
+            "mainClass": "EasyProblems.App",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
             "name": "App",
             "request": "launch",
             "mainClass": "QuickSort.App",
