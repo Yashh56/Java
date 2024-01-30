@@ -1,6 +1,6 @@
 package EasyProblems;
 
-public class AarraySort {
+public class ArraySort {
     // arr =[1,2,3,4,5];
     // arr=[2,3,5,4,1];
 

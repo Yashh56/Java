@@ -6,6 +6,41 @@
     "configurations": [
         {
             "type": "java",
+            "name": "AppearOnce",
+            "request": "launch",
+            "mainClass": "EasyProblems.AppearOnce",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "MissingNumber",
+            "request": "launch",
+            "mainClass": "EasyProblems.MissingNumber",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "UnionArrays",
+            "request": "launch",
+            "mainClass": "EasyProblems.UnionArrays",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "LinearSearch",
+            "request": "launch",
+            "mainClass": "EasyProblems.LinearSearch",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
+            "name": "MoveZeros",
+            "request": "launch",
+            "mainClass": "EasyProblems.MoveZeros",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
             "name": "RotateAnArray",
             "request": "launch",
             "mainClass": "EasyProblems.RotateAnArray",
