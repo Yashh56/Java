@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LongestsubArray",
+            "request": "launch",
+            "mainClass": "EasyProblems.LongestsubArray",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
             "name": "AppearOnce",
             "request": "launch",
             "mainClass": "EasyProblems.AppearOnce",
