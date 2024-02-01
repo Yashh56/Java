@@ -1,4 +1,4 @@
-package Sorting;
+package SelectionSort;
 
 public class App {
     static void Reversed_Arr(int arr[],int n) {
