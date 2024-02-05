@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "LongestConsecutive",
+            "request": "launch",
+            "mainClass": "MediumProblems.LongestConsecutive",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
             "name": "NextPermutation",
             "request": "launch",
             "mainClass": "MediumProblems.NextPermutation",
