@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "SetMatrixZero",
+            "request": "launch",
+            "mainClass": "MediumProblems.SetMatrixZero",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
             "name": "LongestConsecutive",
             "request": "launch",
             "mainClass": "MediumProblems.LongestConsecutive",
