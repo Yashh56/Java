@@ -1,6 +1,6 @@
 package MediumProblems;
 
-public class MaxSubArray {
+public class KadaneAlgo {
 
     static long max (int arr[]){
         long sum=0;
