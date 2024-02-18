@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "FirstLast",
+            "request": "launch",
+            "mainClass": "BinarySearch.FirstLast",
+            "projectName": "Java_72da403b"
+        },
+        {
+            "type": "java",
             "name": "StockBuySell",
             "request": "launch",
             "mainClass": "MediumProblems.StockBuySell",
